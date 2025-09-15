@@ -96,11 +96,11 @@ if model:
         col1, col2, col3 = st.columns(3)
         
         with col1:
-            beer_servings = st.number_input('Beer Servings', min_value=0, value=100)
+            beer_servings = st.number_input('Beer Servings', min_value=0, value=0)
         with col2:
-            spirit_servings = st.number_input('Spirit Servings', min_value=0, value=50)
+            spirit_servings = st.number_input('Spirit Servings', min_value=0, value=0)
         with col3:
-            wine_servings = st.number_input('Wine Servings', min_value=0, value=20)
+            wine_servings = st.number_input('Wine Servings', min_value=0, value=0)
     
     st.markdown("---")
     
@@ -114,4 +114,5 @@ if model:
 
 # Close main-content wrapper
 st.markdown('</div>', unsafe_allow_html=True)
+
 
