@@ -1,0 +1,13 @@
+[theme]
+
+# Transparent so CSS background shows through
+backgroundColor="rgba(0, 0, 0, 0.0)"
+secondaryBackgroundColor="rgba(0, 0, 0, 0.0)"
+
+# Text color – light gray/white for readability
+textColor="#fefefe"
+
+# Accent (buttons, highlights, sliders, container)
+primaryColor="#FF4B4B"
+
+successColor="#FF4B4B"
