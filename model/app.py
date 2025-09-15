@@ -104,7 +104,7 @@ if model:
     
     st.markdown("---")
     
-    if st.button('Predict Total Alcohol', type='primary'):
+    if st.button('Predict Total Alcohol Consumed', type='primary'):
         input_data = pd.DataFrame([[beer_servings, spirit_servings, wine_servings]], columns=features)
         
         prediction = model.predict(input_data)[0]
@@ -114,5 +114,6 @@ if model:
 
 # Close main-content wrapper
 st.markdown('</div>', unsafe_allow_html=True)
+
 
 
